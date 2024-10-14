@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main-container {
+    width: 100%;
+
+    height: 100vh;
+
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 70px;
+        padding: 0px 60px;
+        justify-content: space-between;
+
+        .logo {
+            display: flex;
+            align-items: center;
+            width: 9%;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            justify-content: space-between;
+
+            img {
+                width: 40px;
+            }
+
+            h5 {
+                font-size: 15px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-weight: 700;
+            }
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            width: 40%;
+            justify-content: space-between;
+
+            li {
+                color: rgb(104, 101, 101);
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-weight: 500;
+                padding: 5px 10px;
+                border-radius: 5px;
+            }
+
+            li:hover {
+                background-color: rgba(128, 128, 128, 0.186);
+            }
+
+
+        }
+
+        button {
+            width: 9%;
+            height: 40px;
+            font-size: 13px;
+            font-weight: 500;
+            background: transparent;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-radius: 8px;
+        }
+
+
+    }
+
+    /* navbar ends here */
+    /* hero-section starts here */
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 0px 60px;
+
+
+        .contact-btn {
+            width: 13%;
+            height: 30px;
+            padding: 2px;
+            margin-top: 40px;
+            background: transparent;
+            font-size: 14px;
+            font-weight: 500;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-radius: 5px;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin-top: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        .if {
+            margin-top: 20px;
+            font-size: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    }
+
+
+    .card-section {
+        display: flex;
+        width: 100%;
+        padding: 0px 30px;
+        padding-bottom: 40px;
+        margin-top: 200px;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: rgb(238, 235, 235);
+
+        .card-first {
+            border-radius: 8px;
+            background-color: white;
+            height: 200px;
+            width: 30%;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            position: relative;
+
+            h6 {
+                font-size: 18px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                margin-bottom: 20px;
+
+            }
+
+            p {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 13px;
+                color: rgb(78, 77, 77);
+                line-height: 25px;
+                margin-bottom: 10px;
+            }
+
+            button {
+                width: 100%;
+                border-radius: 8px;
+                font-size: 17px;
+                font-weight: 600;
+                background: rgb(234, 234, 234);
+                height: 40px;
+
+            }
+
+            .img {
+                background-image: url(./65db88af3ef4babfdcc99913_Frame\ 29.png);
+                width: 87%;
+                background-position: center;
+                background-size: 40%;
+                background-color: #F6E0D9;
+                background-repeat: no-repeat;
+                position: absolute;
+                border-radius: 8px;
+                top: -75%;
+
+                height: 150px;
+            }
+        }
+
+        .card-second {
+            border-radius: 8px;
+            background-color: rgb(255, 255, 255);
+            height: 200px;
+            width: 30%;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            position: relative;
+
+            h6 {
+                font-size: 18px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                margin-bottom: 20px;
+
+            }
+
+            p {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 13px;
+                color: rgb(78, 77, 77);
+                line-height: 25px;
+                margin-bottom: 10px;
+            }
+
+            button {
+                width: 100%;
+                border-radius: 8px;
+                font-size: 17px;
+                font-weight: 600;
+                background: rgb(234, 234, 234);
+                height: 40px;
+
+            }
+
+            .img {
+                background-image: url(./65db88e3189e8596584bc730_Frame\ 28.png);
+                width: 87%;
+                background-position: center;
+                background-size: 40%;
+                background-color: #F3D9FA;
+                background-repeat: no-repeat;
+                position: absolute;
+                border-radius: 8px;
+                top: -75%;
+
+                height: 150px;
+            }
+        }
+
+        .card-third {
+            border-radius: 8px;
+            background-color: white;
+            height: 200px;
+            width: 30%;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+
+
+            h6 {
+                font-size: 18px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                margin-bottom: 20px;
+
+            }
+
+            p {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 13px;
+                color: rgb(78, 77, 77);
+                line-height: 25px;
+                margin-bottom: 10px;
+            }
+
+            button {
+                width: 100%;
+                border-radius: 8px;
+                font-size: 17px;
+                font-weight: 600;
+                background: rgb(234, 234, 234);
+                height: 40px;
+
+            }
+
+            .img {
+                background-image: url(./65db8924bb7418d436a060a6_Frame\ 27.png);
+                width: 87%;
+                background-position: center;
+                background-size: 40%;
+                background-color: #DFF0FC;
+                background-repeat: no-repeat;
+                position: absolute;
+                border-radius: 8px;
+                top: -75%;
+
+                height: 150px;
+            }
+
+
+        }
+
+    }
+
+
+
+}
